@@ -7,14 +7,14 @@ For XML
 The individual articles, amendments, and contents are labeled in xml format.
 
 The different levels of the xml hierarchy are:
-<document>
+''<document>
   <part>
-    <article> 
+    <article>
       <section>
          <paragraph>
             <content>
     <amendment>
       <paragraph>
-         <content>
- 
+         <content>''
+
  The text of the constiution parts are located in the <content> elements.
