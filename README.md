@@ -7,14 +7,21 @@ For XML
 The individual articles, amendments, and contents are labeled in xml format.
 
 The different levels of the xml hierarchy are:
-''<document>
-  <part>
-    <article>
-      <section>
-         <paragraph>
-            <content>
-    <amendment>
-      <paragraph>
-         <content>''
+'document
+  part
+    article (or amendment)
+      section (optional)
+         paragraph
+            content
 
- The text of the constiution parts are located in the <content> elements.
+ The text of the Constitution parts are located in the <content> elements.
+
+ The JSON file is hierarchical, with each sub-part located in the "children" element.
+
+For instance, you might have something like (some parts omitted):
+  {"name":"part"
+   "children":[
+      {"name":"section 1"}
+      {"name":"section 2"}
+   ]
+   }
