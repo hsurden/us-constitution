@@ -3,6 +3,8 @@ United States Constitution in xml and JSON
 
 This is a beta version of the US Constitution in xml and JSON.   A website using a version of this file can be found here http://www.harrysurden.com/projects/visual/USCode_D3/constitution/US_Constitution_Tree.html
 
+(Update: Some time after I released this unofficial version, [Congress released an official version of the U.S. Constitution in xml - located here](https://github.com/usgpo/house-manual/blob/master/114/original-file-names/constitution.xml).  You may prefer that official version to this unofficial one).
+
 For the US Constitution in XML
 The individual articles, amendments, and contents are labeled in xml format.
 
